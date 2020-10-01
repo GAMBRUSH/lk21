@@ -1,6 +1,7 @@
-import requests
+import cfscrape
 from bs4 import BeautifulSoup
 import re
+requests = cfscrape.create_scraper()
 Message1 = "LK21 / Dunia21 Download Link Grabber"
 Message2 = "https://github.com/lazuardyk"
 print('{:^80}'.format(Message1))
